@@ -1,0 +1,34 @@
+@model IEnumerable<pacientesPessoas.Models.Pacientes>
+@{
+    ViewData["Title"] = "Teste";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Lista de pacientes</h2>
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.id)</th>
+            <th>@Html.DisplayNameFor(model => model.idPessoa)</th>
+            <th>@Html.DisplayNameFor(model => model.data_entrada)</th>
+            <th>@Html.DisplayNameFor(model => model.comorbidade)</th>
+            <th>@Html.DisplayNameFor(model => model.grau)</th>
+            <th>...</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.id)</td>
+                <td>@Html.DisplayFor(modelItem => item.idPessoa)</td>
+                <td>@Html.DisplayFor(modelItem => item.data_entrada)</td>
+                <td>@Html.DisplayFor(modelItem => item.comorbidade)</td>
+                <td>@Html.DisplayFor(modelItem => item.grau)</td>
+                <td>
+                    <a href="Pacientes/Excluir/@Html.DisplayFor(modelItem => item.id)" class="btn btn-danger">Excluir</a>
+                    <a href="Pacientes/Editar/@Html.DisplayFor(modelItem => item.id)" class="btn btn-primary">Editar</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+

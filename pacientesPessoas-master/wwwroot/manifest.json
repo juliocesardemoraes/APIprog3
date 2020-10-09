@@ -1,0 +1,20 @@
+{
+   "name": "pacientesPessoa",
+   "short_name": "PP",
+   "description": "Aplicação DotNet Core",
+
+   "icons": [
+      {
+         "src": "images/icon_coracao.jpg",
+         "sizes": "192x192"
+      },
+      {         
+         "src": "images/icon_coracao.jpg",
+         "sizes": "512x512"
+      }
+   ],
+   "display": "standalone",
+   "start_url": "/",
+   "background_color": "#607fbe",
+   "theme_color": "#607fbe"
+}
