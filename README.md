@@ -1,6 +1,8 @@
 # APIprog3
 TRABALHO DE PROGRAMAÇÃO 3:
-Equipe:
-Júlio César de Moraes Carvalho Filho
-Silas Frigo Libanio
-Gabriel Antônio de Andrade
+Equipe:<br>
+<ul>
+  <li>Júlio César de Moraes Carvalho Filho</li>
+  <li>Silas Frigo Libanio</li>
+  <li>Gabriel Antônio de Andrade</li>
+</ul>
